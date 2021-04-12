@@ -22,3 +22,11 @@ brew install deno
 ```zsh
 deno run https://deno.land/std/examples/welcome.ts
 ```
+
+### Web Server
+
+```zsh
+deno run --allow-net hello.ts
+```
+
+* `--allow-net`が必要
